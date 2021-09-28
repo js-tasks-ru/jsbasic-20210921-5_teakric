@@ -11,11 +11,10 @@ function print(text) {
  */
 function isValid(name) {
   // ваш код...
-  if ( name == null || name.includes(' ') || (name.lenght < 4) ){
-    return false;
-  } else {
+  if ( (name != null) && (name.length >= 4 ) && !name.includes(' ') ){
     return true;
   }
+    return false;
   }
 
 function sayHello() {

@@ -1,6 +1,6 @@
 function truncate(str, maxlength) {
   // ваш код...
-  if ( str.lenght >= maxlength ){
+  if ( str.length >= maxlength ){
     return `${str.slice( 0, --maxlength )}…`;
   }
     return str;
