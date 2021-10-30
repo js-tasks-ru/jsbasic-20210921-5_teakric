@@ -11,7 +11,7 @@ function highlight(table) {
         row.classList.toggle('unavailable');
       }
     } else {
-      row.setAttribute('hidden', true);
+      row.hidden = true;
     }
     if (row.cells[2].textContent =='m') {
       row.classList.toggle('male');
